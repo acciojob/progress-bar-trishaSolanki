@@ -1,3 +1,4 @@
+// script.js
 const progress = document.getElementById('progress');
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
@@ -47,3 +48,6 @@ function update() {
         next.disabled = false;
     }
 }
+
+// Initialize the progress bar
+update();
